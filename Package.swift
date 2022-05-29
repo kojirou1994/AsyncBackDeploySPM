@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "AsyncBackSPM",
+  name: "AsyncBackDeploySPM",
   platforms: [
     .macOS(.v10_15),
   ],

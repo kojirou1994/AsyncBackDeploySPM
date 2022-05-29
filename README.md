@@ -1,4 +1,4 @@
-# AsyncBackSPM
+# AsyncBackDeploySPM
 
 Build spm using Concurrency for macOS 10.15.
 
@@ -11,3 +11,7 @@ swift build --arch x86_64 -Xlinker -rpath -Xlinker /path/to/libdir/
 or
 
 set -x LD_LIBRARY_PATH /path/to/libdir/
+
+or
+
+put libswift_Concurrency.dylib with executable
